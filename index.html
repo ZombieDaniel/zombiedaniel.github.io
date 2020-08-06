@@ -12,26 +12,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <style>
         #ared {
-    color: #d50000;
-}
-#red:hover, #ared:hover {
-  background-color: #d50000;
-  color: white;
-}
-#ayellow {
-    color: #ffd600;
-}
-#yellow:hover, #ayellow:hover {
-  background-color: #ffd600 ;
-  color: white;
-}
-#ablue {
-    color: #00b8d4;
-}
-#blue:hover, #ablue:hover {
-  background-color: #00b8d4;
-  color: white;
-}
+            color: #d50000;
+        }
+
+        #red:hover,
+        #ared:hover {
+            background-color: #d50000;
+            color: white;
+        }
+
+        #ayellow {
+            color: #ffd600;
+        }
+
+        #yellow:hover,
+        #ayellow:hover {
+            background-color: #ffd600;
+            color: white;
+        }
+
+        #ablue {
+            color: #00b8d4;
+        }
+
+        #blue:hover,
+        #ablue:hover {
+            background-color: #00b8d4;
+            color: white;
+        }
     </style>
 </head>
 
@@ -46,111 +54,146 @@
                         </div>
                         <div class="nav-content">
                             <ul class="tabs tabs-transparent tabs-fixed-width tab-demo z-depth-1">
-                              <li id="red" class="tab"><a id="ared" href="#promocao">Promoção<i
-                                class="small fas fa-piggy-bank"></i></a></li>
-                              <li id="yellow" class="tab"><a id="ayellow" href="#esfihas">Esfihas<i
-                                class="small fas fa-cookie"></i></a></li>
-                              <li id="blue" class="tab"><a id="ablue" href="#bebidas">Bebidas<i
-                                class="small fas fa-glass-martini-alt"></i></a></li>
+                                <li id="red" class="tab"><a id="ared" href="#promocao">Promoção<i
+                                            class="small fas fa-piggy-bank"></i></a></li>
+                                <li id="yellow" class="tab"><a id="ayellow" href="#esfihas">Esfihas<i
+                                            class="small fas fa-cookie"></i></a></li>
+                                <li id="blue" class="tab"><a id="ablue" href="#bebidas">Bebidas<i
+                                            class="small fas fa-glass-martini-alt"></i></a></li>
                             </ul>
-                          </div>
+                        </div>
                     </nav>
                 </header>
-                
+
                 <main>
                     <div class="container">
-                        <h5 class="center-align red-text text-accent-4"><div class="col s12 l12 grey lighten-3"><br>PROMOÇÃO<br><br></div></h5>
+                        <h5 class="center-align red-text text-accent-4">
+                            <div class="col s12 l12 grey lighten-3"><br>PROMOÇÃO<br><br></div>
+                        </h5>
                         <div id="promocao" class="col s12 l12 white">
-                            <br><div class="divider grey lighten-1"></div><br>
-                              <div class="row valign-wrapper">
+                            <br>
+                            <div class="divider grey lighten-1"></div><br>
+                            <div class="row valign-wrapper">
                                 <div class="col s2 m2 l2">
-                                    <img class="" width="75" height="75" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQmwG2Az_zIXiE1zCrCVaE-qkwb4smjFT9luw&usqp=CAU">
+                                    <img class="" width="75" height="75"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQmwG2Az_zIXiE1zCrCVaE-qkwb4smjFT9luw&usqp=CAU">
                                 </div>
                                 <div class="col s9 m10 l10">
-                                  <b class="grey-text text-darken-4">
-                                    Combo Netflix</b><br>
+                                    <b class="grey-text text-darken-4">
+                                        Combo Netflix</b><br>
                                     <b class="red-text">R$10,00</b>
-                                    <a class="right waves-effect waves-light btn-floating btn-small orange darken-1"><i class="material-icons">add</i></a>
-                                    <a class="right waves-effect waves-light btn-floating btn-small orange darken-1"><i class="material-icons">remove</i></a>
-                                </span>
+                                    <a class="right waves-effect waves-light btn-floating btn-small orange darken-1"><i
+                                            class="material-icons">add</i></a>
+                                    <a class="right waves-effect waves-light btn-floating btn-small orange darken-1"><i
+                                            class="material-icons">remove</i></a>
+                                            <form class="right col s2 l1 m1">
+                                                <input id="quantidade" type="text" disabled value="0">
+                                                <label for="quantidade"><b class="grey-text text-darken-4">Quantidade</b></label>
+                                            </form>
                                 </div>
                             </div>
                             <div class="divider grey lighten-1"></div><br>
                         </div>
-                        <h5 class="center-align amber-text text-accent-4"><div class="col s12 l12 grey lighten-3"><br>ESFIHAS<br><br></div></h5>
+                        <h5 class="center-align amber-text text-accent-4">
+                            <div class="col s12 l12 grey lighten-3"><br>ESFIHAS<br><br></div>
+                        </h5>
                         <div id="esfiha" class="col s12 l12 white">
-                                <br><div class="divider grey lighten-1"></div><br>
-                                  <div class="row valign-wrapper">
-                                    <div class="col s2 m2 l2">
-                                        <img class="" width="75" height="75" src="https://imagem.band.com.br/12/f_355412.jpg">
-                                    </div>
-                                    <div class="col s9 m10 l10">
-                                      <b class="grey-text text-darken-4">
-                                        Esfiha de Queijo</b><br>
-                                        <b class="red-text">R$2,00</b>
-                                        <a class="right waves-effect waves-light btn-floating btn-small orange darken-1"><i class="material-icons">add</i></a>
-                                        <a class="right waves-effect waves-light btn-floating btn-small orange darken-1"><i class="material-icons">remove</i></a>
-                                    </span>
-                                    </div>
-                                </div>
-                                <div class="divider grey lighten-1"></div><br>
-                            </div>
-                            <h5 class="center-align cyan-text text-accent-4"><div class="col s12 l12 grey lighten-3"><br>BEBIDAS<br><br></div></h5>
-                                <div id="bebidas" class="col s12 l12 white">
-                                <br><div class="divider grey lighten-1"></div><br>
-                                <div class="row valign-wrapper">
-                                    <div class="col s2 m2 l2">
-                                        <img class="" width="75" height="75" src="https://savegnago.vteximg.com.br/arquivos/ids/290401-600-600/REFRIGERANTE-FANTA-200ML-PET-UVA.jpg?v=636705281339000000">
-                                    </div>
-                                    <div class="col s9 m10 l10">
-                                      <b class="grey-text text-darken-4">
-                                        Fanta Uva</b><br>
-                                        <b class="red-text">R$2,00</b>
-                                        <a class="right waves-effect waves-light btn-floating btn-small orange darken-1"><i class="material-icons">add</i></a>
-                                        <a class="right waves-effect waves-light btn-floating btn-small orange darken-1"><i class="material-icons">remove</i></a>
-                                    </div>
-                                </div>
-                                <div class="divider grey lighten-1"></div><br>
-                                <div class="row valign-wrapper">
-                                    <div class="col s2 m2 l2">
-                                        <img class="" width="75" height="75" src="https://apoioentrega.vteximg.com.br/arquivos/ids/443753/184606.jpg?v=636855103678530000">
-                                    </div>
-                                    <div class="col s9 m10 l10">
-                                      <b class="grey-text text-darken-4">
-                                        Fanta Laranja</b><br>
-                                        <b class="red-text">R$2,00</b>
-                                        <a class="right waves-effect waves-light btn-floating btn-small orange darken-1"><i class="material-icons">add</i></a>
-                                        <a class="right waves-effect waves-light btn-floating btn-small orange darken-1"><i class="material-icons">remove</i></a>                                    
-                                    </div>
-                                </div>
-                                <div class="divider grey lighten-1"></div><br>
-                                </div>
-                                <br>
-                            
-                        </div>
-                    </div>
-                </main>
-                <footer>
-                    <div class="container">
-                        <div class="col s12 l12 grey lighten-3 grey-text text-lighten-3 center">
                             <br>
-                            <a class="center waves-effect waves-blue">ESFIHARIA<i
-                                    class="col s4 small fab fa-facebook"></i></a>
-                            <a class="center red-text waves-effect waves-blue">@ESFIHARIA<i
-                                    class="col s4 small fab fa-instagram"></i></a>
-                            <br><br>
+                            <div class="divider grey lighten-1"></div><br>
+                            <div class="row valign-wrapper">
+                                <div class="col s2 m2 l2">
+                                    <img class="" width="75" height="75"
+                                        src="https://imagem.band.com.br/12/f_355412.jpg">
+                                </div>
+                                <div class="col s9 m10 l10">
+                                    <b class="grey-text text-darken-4">
+                                        Esfiha de Queijo</b><br>
+                                    <b class="red-text">R$2,00</b>
+                                    <a class="right waves-effect waves-light btn-floating btn-small orange darken-1"><i
+                                            class="material-icons">add</i></a>
+                                    <a class="right waves-effect waves-light btn-floating btn-small orange darken-1"><i
+                                            class="material-icons">remove</i></a>
+                                            <form class="right col s2 l1 m1">
+                                                <input id="quantidade" type="text" disabled value="0">
+                                                <label for="quantidade"><b class="grey-text text-darken-4">Quantidade</b></label>
+                                            </form>
+                                </div>
+                            </div>
+                            <div class="divider grey lighten-1"></div><br>
                         </div>
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div id="a" class="col s12 m12 l12 white">
-                            
+                        <h5 class="center-align cyan-text text-accent-4">
+                            <div class="col s12 l12 grey lighten-3"><br>BEBIDAS<br><br></div>
+                        </h5>
+                        <div id="bebidas" class="col s12 l12 white">
+                            <br>
+                            <div class="divider grey lighten-1"></div><br>
+                            <div class="row valign-wrapper">
+                                <div class="col s2 m2 l2">
+                                    <img class="" width="75" height="75"
+                                        src="https://savegnago.vteximg.com.br/arquivos/ids/290401-600-600/REFRIGERANTE-FANTA-200ML-PET-UVA.jpg?v=636705281339000000">
+                                </div>
+                                <div class="col s9 m10 l10">
+                                    <b class="grey-text text-darken-4">
+                                        Fanta Uva</b><br>
+                                    <b class="red-text">R$2,00</b>
+                                    <a class="right waves-effect waves-light btn-floating btn-small orange darken-1"><i
+                                            class="material-icons">add</i></a>
+                                    <a class="right waves-effect waves-light btn-floating btn-small orange darken-1"><i
+                                            class="material-icons">remove</i></a>
+                                            <form class="right col s2 l1 m1">
+                                                <input id="quantidade" type="text" disabled value="0">
+                                                <label for="quantidade"><b class="grey-text text-darken-4">Quantidade</b></label>
+                                            </form>
+                                </div>
+                            </div>
+                            <div class="divider grey lighten-1"></div><br>
+                            <div class="row valign-wrapper">
+                                <div class="col s2 m2 l2">
+                                    <img class="" width="75" height="75"
+                                        src="https://apoioentrega.vteximg.com.br/arquivos/ids/443753/184606.jpg?v=636855103678530000">
+                                </div>
+                                <div class="col s9 m10 l10">
+                                    <b class="grey-text text-darken-4">
+                                        Fanta Laranja</b><br>
+                                    <b class="red-text">R$2,00</b>
+                                    <a class="right waves-effect waves-light btn-floating btn-small orange darken-1"><i
+                                            class="material-icons">add</i></a>
+                                    <a class="right waves-effect waves-light btn-floating btn-small orange darken-1"><i
+                                            class="material-icons">remove</i></a>
+                                            <form class="right col s2 l1 m1">
+                                                <input id="quantidade" type="text" disabled value="0">
+                                                <label for="quantidade"><b class="grey-text text-darken-4">Quantidade</b></label>
+                                            </form>
+                                </div>
+                            </div>
+                            <div class="divider grey lighten-1"></div><br>
+                        </div>
+                        <br>
+
+                    </div>
+            </div>
+            </main>
+            <footer>
+                <div class="container">
+                    <div class="col s12 l12 grey lighten-3 grey-text text-lighten-3 center">
+                        <br>
+                        <a class="center waves-effect waves-blue">ESFIHARIA<i
+                                class="col s4 small fab fa-facebook"></i></a>
+                        <a class="center red-text waves-effect waves-blue">@ESFIHARIA<i
+                                class="col s4 small fab fa-instagram"></i></a>
+                        <br><br>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div id="a" class="col s12 m12 l12 white">
+
+                            </div>
                         </div>
                     </div>
-                </div>
-                </footer>
+            </footer>
 
-            </div>
         </div>
+    </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
